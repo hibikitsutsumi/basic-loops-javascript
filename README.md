@@ -13,9 +13,12 @@ while(j < 10){
   j+=1; // do not forget this line, it will cause infinite loop without condition.
 }
 
+//Factrial number
 var number = 5;
 var sum = 1;
 while(number > 0){
   sum *= number;
   number -= 1;
 }
+alert(sum);
+
